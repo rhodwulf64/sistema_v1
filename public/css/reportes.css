@@ -1,0 +1,106 @@
+#repor{
+    text-decoration: none;
+    color: white;
+    background: #023859;
+    width: 120px;
+    padding:10px 2px;
+    border: 1px solid #023859;
+    border-radius: 4px;
+    cursor:pointer;
+    text-align: center
+}
+#repor:hover{
+    opacity: 0.8;
+}
+button#btn-home{
+	display: inline-block;
+	padding: 6px 15px;
+	border-radius: 3px;
+	background: #fff;
+	border:0px;
+	color: #fff;
+	width: 45%;
+}
+button#btn-home:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+table#btn-home-table{
+	text-align: center;
+	margin: auto;
+	/*border:1px solid #C4C4C4;*/
+	padding: 6px 15px;
+	border-radius: 3px;
+
+	/****/
+
+	border:1px solid #ccc;
+	background-color: #FFF;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-shadow: 0px 0px 20px #ccc;
+}
+table tr td{
+	padding: 10px;
+}
+#iconosr{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+}
+#btn-unico{
+	padding: 10px 15px;
+	border-radius: 3px;
+	border:1px solid #C4C4C4;
+	background: #023859;
+	color: #fff;
+	cursor: pointer;
+}
+img{
+	width: 40%;
+}
+h2{
+	padding: 7px 8px;
+	border:1px solid  #ccc;
+	color:#FFF;
+	font-size: 19px;
+	text-align: left;
+	background-color: #023859;
+}
+input[type='text']{
+	padding: 8px 15px;
+	border-radius: 3px;
+	cursor: pointer;
+	text-transform: uppercase;
+	border:1px solid #ccc;
+}
+#tReport{
+	background: #E5E5E5;
+	display: inline-block;
+	position: relative;
+	top: -12px;
+	right: -25px;
+	padding: 4px;
+	border-radius: 1px;
+}
+#filtrado{
+	display: inline-block;
+	position: relative;
+	left: -40px;
+	margin-bottom: 3px;
+	padding: 4px;
+	background: #E5E5E5;
+}
+.CampoMovReportes{
+    width: 100%;
+    padding: 10px;
+}
+label.Reportes{
+    text-align: left;
+    font-size: 19px;
+    display:block;
+    margin-left: 3px;
+    margin-bottom: 2px;
+}

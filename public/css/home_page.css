@@ -1,0 +1,91 @@
+/****************************** Menu de navegación del sistema home page(superior) ******************************/
+.header .nav {
+	background:#023859;
+	z-index:1000;
+	width:100%;
+	margin:40px auto;
+	height: 55px;
+}
+.header .nav ul {
+	list-style:none;
+	border-top: 2px solid #023859;
+	margin-right: 105px;
+}
+.header .nav ul li {
+	display:inline-block;
+	position: relative;
+}
+.header .nav ul li a:hover {
+	background:#fff;
+	color: #000;
+}
+.header .nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 15px 20px 20px 20px;
+}
+.header .nav ul li a span {
+	margin-right:10px;
+}
+.header .nav ul li:hover .children {
+	display:block;
+}
+.header .nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+.menu_bar{
+	display:none;
+}
+/************ posicionamiento ************/
+#content-izquierda{
+	overflow: hidden;
+	background: #fff;
+	margin: left;
+	width: 64.3%;
+	height: 340px;
+	display: inline-block;
+}
+#content-derecha{
+	float: right;
+	width: 35%;
+	background: #fff;
+	height: 343px;
+}
+#content-centro{
+	overflow: hidden;
+	width:100%;
+	padding-top:5px; 
+	box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+#content-centro p, #content-centro h2{
+	overflow: hidden;
+	width:100%;
+	background: #E6E6E6;
+	padding: 10px 20px;
+	box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+#content-centro h2{
+	  text-transform:capitalize;
+	  text-align: center;
+	  font-size: 20px;
+	  font-weight: 600;
+}
+#content-centro p{
+	text-indent:20px;
+	text-align : justify;
+	line-height:22px;
+	text-transform: capitalize;
+	font-size: 14px;
+}

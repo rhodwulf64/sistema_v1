@@ -1,0 +1,93 @@
+/**************** ventana modal *****************/
+table#modad-desarr{
+		width: 60%;
+		color: #000;
+		margin: auto;
+		margin-top: 20px;
+	}
+	table#modad-desarr tr td{
+		padding: 5px;
+		text-align: center;
+	}
+	table#modad-desarr tr td button#Editar{
+		padding: 7px 10px;
+		border-radius: 3px;
+		margin-top: 4px;
+		background: #023859;
+		color: #fff;
+		font-size: 18px;
+	}
+	table#modad-desarr tr#cabecera-modal{
+		background: #ccc;
+		color: #000;
+	}
+	table#modad-desarr span{
+		font-size: 18px;
+		font-weight: 600;
+	}
+	#modad-desarr tr td img{
+		width: 250px;
+		text-align: center;
+		display: inline-block;
+		height: 250px;
+		border-radius:10px;
+		padding: 3px; /*margen interno*/
+		border:2px solid #ccc;
+	}
+	#btnSalirDesarr{
+		background: #023859;
+		color: #fff;
+		padding: 11px 15px;
+		border-radius: 3px;
+		border:1px solid #C4C4C4;
+		margin-top: 4px;
+		font-weight: 600;
+		float: right;
+	}
+	#btnSalirDesarr:hover{
+		cursor: pointer;
+		opacity: 0.9;
+	}
+
+/**************** Acerca de *****************/
+	.form tr td span{
+		font-size: 18px;
+		font-weight: 600;
+		padding: 10px;
+	}
+	.form tr td{
+		padding: 10px;
+	}
+	.form tr td p{
+		font-size: 18px;
+	}
+	#formDesarr tr td img{
+		width: 100px;
+		text-align: center;
+		display: inline-block;
+		height: 120px;
+		border-radius:10px;
+		padding: 3px; /*margen interno*/
+		border:2px solid #ccc;
+	}
+	#formDesarr tr td img:hover{
+		transition: all 0.1s ease-in-out;
+		cursor: pointer;
+		opacity: 0.9;
+		padding: 5px;
+	}
+	#formDesarr{
+		/*border: 1px solid #ccc;*/
+		width: 100%;
+	}
+	#formDesarr tr td{	
+		padding: 10px;
+	} 
+	#formDesarr tr td#td-top{
+		position: relative;
+		/*top: -130px;*/
+	}
+	#formDesarr tr td#td-top span{
+		font-size: 16px;
+		font-weight: 600;
+	}

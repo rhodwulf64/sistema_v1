@@ -1,0 +1,34 @@
+/* footer (pie de página) */
+.footer{
+    background:#303132;
+    clear: both;
+    margin-top: 16px;
+    width: 100%;
+    padding: 15px;
+    border-top: 2px solid #dd9e1f;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.footer p{
+    font-family: Helvetica, Arial;
+    color:#ccc999;
+    font-size: 11px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    padding-top: 7px;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.footer p a{
+	text-decoration: none;color: #C2C7C8;
+}
+.footer p a:hover{
+	text-decoration:  underline;color: #fff;
+}

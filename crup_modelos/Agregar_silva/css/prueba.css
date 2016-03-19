@@ -1,0 +1,76 @@
+
+	div{
+
+		border:1px solid silver; 
+		margin: 0px auto;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px grey;
+	}
+	div[contenedor]{
+		width: 1024px;
+		height: auto;
+		min-height: 300px;
+		border:1px solid silver; 
+		margin: 0px auto;
+		margin-top: 30px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px grey;
+	}
+
+	div[form], div#agregar{
+		border: 1px solid silver;
+			width: 99%;
+            display: inline-table;
+            transition: all 1s;
+            margin: 0px auto;
+            border-radius: 5px;
+            margin: 2px;
+            box-shadow: 1px 1px 3px grey;
+	}
+
+	div[p1],div[p2],div[p3],div[p4],div[p5],div[p6]{
+		width: 75px;
+		border: 1px solid silver;
+		height: 30px;
+		display: inline-table;
+		margin-bottom: 0px;
+		border-radius: 3px;
+		margin-left: 2px;
+	}
+
+	input[type="checkbox"]{
+		float: right;
+		margin-top: 8px;
+	}
+
+	div[icon]{
+		width: 75px;
+		border: 1px solid silver;
+		height: 50px;
+		display: inline-table;
+		border-radius: 3px;
+		margin-left: 2px;
+	}
+
+	div[icon]:hover{
+		background: silver;
+		border: 1px solid grey;
+	}
+
+	div[cont-pest]{
+		border: 1px solid grey;
+	}
+
+	ul li{
+		width: 100%;
+	}
+
+
+	ul li input[type="checkbox"]{
+		margin-left: -33.95px;
+		margin-right: 10px;
+	}
+
+	ul:first-child{
+		margin-top: 8px;
+	}

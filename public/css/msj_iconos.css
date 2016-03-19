@@ -1,0 +1,93 @@
+/************************** iconos de acceso **************************/
+#acceso .icon-lock, #acceso .icon-user,
+#acceso2 .icon-user,#acceso2 .icon-key{
+	background-color: #404040;
+	color: #fff;
+	padding: 7px 8px 11px 8px;
+	border-radius: 3px 0px 0px 2px;
+	margin: auto;
+	width: 25px;
+	clear: both;
+	display: inline-block;
+}
+.ayuda-local-frm{
+	position: relative;
+	display: block;
+	float: right;
+	margin-left: 10px;
+}
+.ayuda-local-frm:hover{
+	cursor: pointer;
+}
+/******************* mesaje de verificacion de datos ****************/
+#frm-perfil-titulo{
+	background: #DDDDDD;
+	padding: 9px;
+	color: #5E5E5E;
+	font-weight: 600px;
+	font-size: 18px;
+}
+#mesaje-descrip-maestra{
+	margin-top: 30px;
+	padding: 10px;
+}
+.verificar-datos{
+	display: block;
+	text-align: center;
+}
+#verificar-datos{
+	color: #fff;
+	padding: 5px 0px 5px 0px;
+	font-size: 15px;
+	display: inline-block;
+}
+#verificar-datos-table{
+	width: 80%;
+	top: -23px;
+	position: relative;
+	background: #9F1414;
+	margin: auto;
+}
+.msj-asterisco{
+	margin: auto;
+	font-size: 16px;
+	opacity: 0.95;
+	padding-top: 10px;
+}
+#iconos,#iconos-1,#iconos-2{
+	margin-right: 6px;
+	font-size: 16px;
+}
+#iconos-derecha{
+	margin-left: 6px;
+}
+.asterisco {
+	color:red;
+	padding-left: 10px;
+	font-size: 15px;
+}
+.asterisco-1 {
+	color:red;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+}
+.asterisco-unico{
+	color:red;
+	padding-left: 11px;
+	padding-right: 10px;
+	font-size: 15px;
+}
+.asterisco-unico-ocul{
+	color:red;
+	padding-left: 11px;
+	padding-right: 10px;
+	font-size: 15px;
+	display: none;
+}
+#identificacion{
+	font-size: 15px;
+	color: #f0f0f0;
+	padding: 8px;
+	padding-bottom: 17px;
+}

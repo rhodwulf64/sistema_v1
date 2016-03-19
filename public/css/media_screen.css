@@ -1,0 +1,141 @@
+/* diferentes resoluciones media screen HOME PAGE */
+/*@media screen and (max-width: 1150px) {
+	.contenedor{
+		width: 100%;
+		margin: 0 auto;
+		box-shadow: 0px 10px 10px #000;
+	}
+	.header .nav {
+		background:#023859;
+		z-index:1000;
+		width:100%;
+		margin:40px auto;
+		height: 70px;
+	}
+	.header .nav ul li a {
+		display: none;
+	}
+	.menu_bar {
+		display:block;
+		width:100%;
+		/*position: fixed;*/
+	/*	top:0;*/
+/*		background:#E6344A;*/
+	/*}
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 16px 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.menu_bar span {
+		float: right;
+		font-size: 20px;
+		
+	}
+}*/
+
+/*@media screen and (max-width: 730px) {
+	.logo span p{
+		display: none;
+	}
+	.main #content-izquierda{overflow: hidden;
+		background: #fff;
+		float: left;
+		width: 100%;
+		height: 343px;
+		padding: 10px 10px;
+		/*border: 1px solid #ccc;*/
+		/*display: inline-block;
+	}
+	.main #content-derecha{
+		overflow: hidden;
+		clear: both;
+		width: 100%;
+		background: #fff;
+		height: 307px;
+		display: inline-block;
+	}
+	#content-centro .slider{
+		width:0%;
+		display: block;
+		margin: left;
+		background: red;
+	}
+	.main #galeria{ /*contenedor*/
+	   /* display: block;
+	    margin:auto; 
+	    padding: 0; position: relative;
+	    width: 100%;
+	    top:0px;
+	    height:40.6em;
+	    list-style: none;
+	    border-radius: 1px solid #000;
+	    overflow: hidden;
+	}
+	.main #galeria li{
+		position: absolute; 
+		width: 100%;
+	}
+	.main #galeria li img{
+		width: 100%;
+		border-radius: 1px;
+		position:absolute;
+		height:20em;
+		box-shadow: 5px 5px 5px #023859;
+	}
+	.main #galeria .selected{
+		z-index: 0; opacity: 1;
+		-moz-transition: all 2s ease 0s;
+		-ms-transition: all 2s ease 0s;
+	    -o-transition: all 2s ease 0s;
+		-webkit-transition: all 2s ease 0s;
+		transition: all 2s ease 0s;
+	}
+	.main #galeria .noselected{
+	    z-index: 0;opacity: 0;
+	    -moz-transition: all 2s ease 0s;
+	    -ms-transition: all 2s ease 0s;
+	    -o-transition: all 2s ease 0s;
+	    -webkit-transition: all 2s ease 0s;
+	    transition: all 2s ease 0s;
+	}
+}*/
+
+/* median screen intranet */
+
+/****** span modulos del sistema *****/
+@media screen and (max-width: 1345px) {
+	#barra-modulos-iconos{
+		position: absolute;
+		width:18%;
+		top: 118px;
+		border-right: 13px solid #ccc;
+	}
+}
+@media screen and (max-width: 1240px) {
+	#barra-modulos-iconos p{
+		top: 20px;
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 1235px) {
+	#barra-modulos-iconos p{
+		top: 25px;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 1225px) {
+	#barra-modulos-iconos p{
+		top: 25px;
+		font-size: 14px;
+	}
+}
+/***** cierre módulos del sistema *****/
+
+@media screen and (max-width: 1227px) {
+	/*hasta aqui tengo pensado dejar el menu, apartir de aqui se esconderá */
+}

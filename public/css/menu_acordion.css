@@ -1,0 +1,300 @@
+#acordeon {
+  margin-top: 40px;
+}
+#acordeon, #acordeon ul, #acordeon ul li, #acordeon ul li a {
+  list-style: none;
+  line-height: 1;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#acorden ul li{
+  position: relative;
+}
+#acordeon {
+  width: 100%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#acordeon ul ul {
+  display: none;
+}
+/*.align-right {
+  float: right;
+}*/
+#acordeon > ul > li > a {
+  padding: 15px 20px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #fff;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #CCC;
+}
+/*#acordeon > ul > li > a:hover,
+#acordeon > ul > li.active > a,
+#acordeon > ul > li.open > a {
+   	color: #4D4D4D;
+  	background: #fff;
+}*/
+/*#acordeon > ul > li.open > a {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid #1682ba;
+}*/
+/*#acordeon > ul > li:last-child > a,
+#acordeon > ul > li.last > a {
+  border-bottom: 1px solid #CCC;
+}*/
+/*.holder {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}*/
+/*.holder::after,
+.holder::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  right: 20px;
+  z-index: 10;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}*/
+/*.holder::after {
+  top: 17px;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+}*/
+/*#acordeon > ul > li > a:hover > span::after,
+#acordeon > ul > li.active > a > span::after,
+#acordeon > ul > li.open > a > span::after {
+  border-color: #eeeeee;
+}*/
+/*.holder::before {
+  top: 18px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-top-color: inherit;
+  border-left-color: inherit;
+}*/
+#acordeon ul ul li:hover > a,
+#acordeon ul ul li.open > a,
+#acordeon ul ul li.active > a {
+ 	background: #222;
+  	color: #ccc;
+  	border-left: 4px solid #969898;
+}
+/*#acordeon ul ul li:first-child > a {
+  box-shadow: none;
+}
+#acordeon ul ul ul li:first-child > a {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}*/
+#acordeon ul ul li a {
+	cursor: pointer;
+  	padding: 10px 20px;
+  	background: #333;
+ 	border-left: 4px solid #444; 
+ 	text-decoration: none;
+ 	box-shadow: 2px 2px 5px #ccc;
+ 	color: #ccc;
+ 	font-size: 15px;
+}
+#acordeon ul ul li a:hover{
+	border-left: 4px solid #969898;
+ 	background: #222;
+ 	color: #ccc;
+}
+#acordeon ul ul ul li a {
+  padding-left: 35px;
+}
+/*#acordeon > ul > li > ul > li:last-child > a,
+#acordeon > ul > li > ul > li.last > a {
+  border-bottom: 0;
+}*/
+/*#acordeon > ul > li > ul > li.open:last-child > a,
+#acordeon > ul > li > ul > li.last.open > a {
+  border-bottom: 1px solid #32373e;
+}*/
+/*#acordeon > ul > li > ul > li.open:last-child > ul > li:last-child > a {
+  border-bottom: 0;
+}*/
+/*#acordeon ul ul li.has-sub > a::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  right: 20px;
+  z-index: 10;
+  top: 11.5px;
+  border-top: 2px solid #eeeeee;
+  border-left: 2px solid #eeeeee;
+  -webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}*/
+/*#acordeon ul ul li.active > a::after,
+#acordeon ul ul li.open > a::after,
+#acordeon ul ul li > a:hover::after {
+  border-color: #ffffff;
+}*/
+
+#acordeon ul li span#flecha-one,#acordeon ul li span#flecha-one2 {
+  float: right;
+	top: 16px;
+	left: 20px;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+#acordeon ul li span#flecha-one,#acordeon ul li span#flecha-one2{
+	right: 12px;
+	left: auto;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+#acordeon ul li.open span#flecha-one,#acordeon ul li.open span#iconos{
+	color: #023859;
+}
+#acordeon ul li.open span#flecha-one {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/*#contenido_izquierda ul {
+	list-style-type: none;
+}
+
+#contenido_izquierda a {
+	color: #b63b4d;
+	text-decoration: none;
+}
+
+=======================
+  Contenedor Principal
+ ===========================
+
+ #contenido_izquierda .accordion {
+ 	width: 100%;
+ 	background: #FFF;
+ 	-webkit-border-radius: 4px;
+ 	-moz-border-radius: 4px;
+ 	border-radius: 4px;
+ }
+
+#contenido_izquierda .accordion .link {
+	cursor: pointer;
+	display: block;
+	padding: 15px 15px 15px 42px;
+	color: #4D4D4D;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px solid #CCC;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	height: 15px;
+}
+#contenido_izquierda .accordion .link2 {
+	cursor: pointer;
+	display: block;
+	padding: 15px 15px 15px 42px;
+	margin-left: 5px;
+	color: #4D4D4D;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px solid #CCC;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	height: 15px;
+}
+
+
+Submenu
+
+#contenido_izquierda .submenu {
+ 	display: none;
+ }
+
+#contenido_izquierda .submenu li {
+ 	background: #333; width: 100%; 
+ }
+
+#contenido_izquierda .submenu a {
+ 	display: block; 
+ 	padding: 8px;
+ 	border-left: 4px solid #444; 
+ 	text-decoration: none;
+ 	box-shadow: 2px 2px 5px #ccc;
+ 	text-align: left; padding-left:
+ 	15px; color: #ccc;
+ }
+
+#contenido_izquierda .submenu a:hover {
+ 	border-left: 4px solid #969898;
+ 	background: #222;
+ 	color: #ccc;
+ }
+ .accordion li.open .link {
+	color: blue;
+}
+
+
+ menu acordion
+
+.accordion li span#flecha-one,.accordion li span#categorias {
+	right: 12px;
+	left: auto;
+}
+.accordion li span {
+	position: absolute;
+	top: 16px;
+	left: 20px;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.accordion li span#flecha-one,.accordion li span#categorias {
+	right: 12px;
+	left: auto;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.accordion li.open .link {
+	color: #b63b4d;
+}
+
+.accordion li.open span {
+	color: #023859;
+}
+.accordion li.open span#flecha-one {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+*/

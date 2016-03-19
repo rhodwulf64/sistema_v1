@@ -1,0 +1,370 @@
+	/* mensajes de condicion */
+	span.DISP{
+		position: relative;
+		background: green;
+		color: #fff;
+		padding: 4px;
+		border-radius: 2px;
+		top:-6px;
+		left: -25px;
+	}
+	span.DISPconT{
+		position: relative;
+		background: blue;
+		color: #fff;
+		padding: 4px;
+		border-radius: 2px;
+		top:-6px;
+		left: -25px;
+	}
+	span.ASIG{
+		position: relative;
+		background: orange;
+		color: #fff;
+		padding: 4px;
+		border-radius: 2px;
+		top:-6px;
+		left: -25px;
+	}
+	span.DESI{
+		position: relative;
+		background: red;
+		color: #fff;
+		padding: 4px;
+		border-radius: 2px;
+		top:-6px;
+		left: -25px;
+	}
+	span.DISPONIBLE:hover,span.ASIGNADO:hover,span.DESINCORPORADO:hover{
+		cursor: pointer;
+		opacity: 0.8;
+	}
+	.btn-condicion{
+		margin: 0;
+		padding: 0;
+	}
+
+
+	#topLink{
+		padding-top: 4px;
+		top: -5px;
+		max-height: 130px;
+		overflow: scroll;
+		overflow-x:hidden;
+	}
+	
+	#iconos-recep-mas{
+		position: relative;
+		font-size: 8px;
+		border: 1px solid #ccc;
+		padding: 4px;
+		border-radius: 15px;
+		margin-right:12px;
+		top: -3px;
+		display: none;
+	}
+	#iconos-recep-mas:hover,#iconos-recep-men:hover,#iconos-recep-bien-mas:hover{
+		cursor: pointer;
+		opacity: 0.9;
+	}
+	#iconos-recep-bien-mas{
+		position: relative;
+		font-size: 8px;
+		border: 1px solid #ccc;
+		padding: 4px;
+		border-radius: 15px;
+		margin-right:12px;
+		top: -3px;
+	}
+	#iconos-recep-bien-men{
+		position: relative;
+		font-size: 8px;
+		border: 1px solid #ccc;
+		padding: 4px;
+		border-radius: 15px;
+		margin-right:12px;
+		top: -3px;
+		display: none;
+	}
+	#iconos-recep-men{
+		position: relative;
+		font-size: 8px;
+		border: 1px solid #ccc;
+		padding: 4px;
+		border-radius: 15px;
+		margin-right:12px;
+		top: -3px;
+	}
+	#iconos-recep-men:hover{
+		cursor: pointer;
+		opacity: 0.9;
+	}
+	#iconos-recep:hover{
+		cursor: pointer;
+	}
+	#datos-entrada-bien{
+	    position: relative;
+	    border-radius: 2px;
+	    visibility: visible;
+	}
+	#datos-entrada-bien2{
+		position: relative;
+	    border-radius: 2px;
+	    visibility: visible;
+	}
+	#datos-entrada-bien3{
+		position: relative;
+	    border-radius: 2px;
+	    visibility: visible;
+	}
+	#datos-entrada-bien4{
+	    position: absolute;
+	    border-radius: 2px;
+	    visibility: hidden;
+	}
+	#datos-entrada-bien5{
+		position: absolute;
+	    border-radius: 2px;
+	    visibility: hidden;
+	}
+	#datos-entrada-bien6{
+		position: absolute;
+	    border-radius: 2px;
+	    visibility: hidden;
+	}
+
+/*********** detalle *********/
+	/*   ESTILOS CRUP  */
+		/*#detalle{
+			text-align: center;
+			border: 1px solid #000;
+			width: 100%;
+			background: #ccc;
+			border: 1px solid #7B7B7B;
+		}*/
+	/*#detalle tr td#cabecera-crup{
+		border-collapse: collapse;
+		border: 1px solid #000;
+	}
+	#detalle tr td#pintacrup{
+		background: red;
+	}*/
+	#detalle{
+		position: relative;
+		margin-top: -20px;
+	}
+	#detalle tr {
+		position: relative;
+		border-bottom: 1px solid #ccc;
+		height: -10px;
+		width: 100%;
+	}
+	#cabecera-detalle{
+		background: #D5D5D5;
+		padding: 1% 0px 0px 0px;
+		text-align: center;
+		height: 35px;
+	}
+
+	#cabecera-detalle span#n1{
+		position: relative;
+		display: inline;
+		margin-left:-7%;
+	}
+	#cabecera-detalle span#n2{
+		position: relative;
+		display: inline;
+		margin-left:3%;
+	}
+	#cabecera-detalle span#n3{
+		position: relative;
+		display: inline;
+		margin-left:3%;
+	}
+	#cabecera-detalle span#n4{
+		position: relative;
+		display: inline;
+		margin-left:3%;
+	}
+	#cabecera-detalle span#n5{
+		position: relative;
+		display: inline;
+		margin-left:4%;
+	}
+	#cabecera-detalle span#n6{
+		position: relative;
+		display: inline;
+		margin-left:4%;
+	}
+	#cabecera-detalle span#n7{
+		position: relative;
+		display: inline;
+		margin-left:3%;
+	}
+	#cabecera-detalle span#n8{
+		position: relative;
+		display: inline;
+		margin-left:3%;
+	}
+	#cabecera-detalle span#n9{
+		position: relative;
+		display: inline;
+		margin-left:3%;
+	}
+	#cabecera-detalle span#n10{
+		position: relative;
+		display: inline;
+		margin-left:3%;
+	}
+
+	#cabecera-detalle span{
+		font-size: 17px
+	}
+	.nro-recep{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		width: 70%;
+		margin-left: -10%;
+		padding: 4px;
+		border:0px;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	.cod_bien_R{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		width: 80%;
+		margin-left: -45%;
+		padding: 4px;
+		border:0px;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	.id_tbien{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		width: 92%;
+		margin-left: -58%;
+		padding: 4px;
+		border:0px;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	
+	.des_bien_recep{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		width: 112%;
+		margin-left: -40%;
+		padding: 4px;
+		border:0px;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+
+	.serial_bien_recep{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		width: 82%;
+		padding: 4px;
+		margin-left: -25%;
+		border:0px;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	.cod_marca{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		width: 80%;
+		padding: 4px;
+		margin-left: -45%;
+		border:0px;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	
+	.modelo_bien_recep{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		width: 78%;
+		padding: 4px;
+		border:0px;
+		margin-left: -75%;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	
+	.precio_bien_recep{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		width: 72%;
+		padding: 4px;
+		border:0px;
+		margin-left: -100%;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	.dep_recep{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		width: 110%;
+		padding: 4px;
+		border:0px;
+		margin-left: -100%;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	.obser_bien{
+		background: #F6F6F6;
+		position: relative;
+		top: 1.5px;
+		margin-left: -70%;
+		width: 105%;
+		padding: 4px;
+		border:0px;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	.btn-quitar{
+		background: red;
+		color: #fff;
+		font-weight: 600;
+		font-size: 20px;
+		position: relative;
+		top: 2px;
+		width: 30%;
+		margin-left: -130%;
+		padding: 4px;
+		border:0px;
+		text-align: center;
+		resize:none;
+		height: 28px;
+	}
+	.btn-quitar span{
+		position: relative;
+		top: -7px;
+		margin-left: -5px;
+	}
+	.btn-quitar:hover{
+		cursor: pointer;
+		opacity: 0.8;
+	}

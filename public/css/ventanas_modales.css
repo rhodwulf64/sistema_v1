@@ -1,0 +1,170 @@
+.ventana,.ventana2, .ventana3, .ventana4, .ventana5, .ventana6, .ventana7, .ventana8, .ventana9,
+.ventana10, .ventana11, .ventana12, .ventana13, .ventana14, .ventana15, .ventana16,.ventana17,.ventana18,.ventana19,.ventana20,
+.ventana21,.ventana22,.ventana23,.ventana24,.ventana25,.ventana26,.ventana27,.ventana28,
+.ventana29,.ventana30,.ventana31,.ventana32,.ventana33,.ventana34,.ventana35,.ventana36,.ventana37,.ventana38,.ventana39,.ModalCondicion,.ModalTipoAnulacion, .VentanaModalAsig,
+.ventanaAnularAsig, .ModalTipoAnulacionAsig, .ventanaConfirmRecep, .VentaVlidarMas, .SoloMsjGeneralLibreria, .DesincorFinalizada,
+.ventanaAnulardesin,.ModalTipoAnulacionDesin, .ModalCondicionbienMov, .ModalTipoAnulacionDevol, .DevolcuionFinalizada,.ventanaAnulardevol
+,.ModalTipoAnulacionDev, .ModalSesionIniciada, .ventanaSalir2{
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	position: fixed;
+	/*background-image: url(../img/bg-modal.png);*/
+	background: rgba(0,0,0,0.4);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 1001;
+}
+.msj-confirmar{
+	position: fixed;
+	display: inline-block;
+	width: 301px;
+	height: 110px;
+	padding: 25px;
+	background-color: #FFF;
+	color: #666;
+	font-size: 15px;
+	top: 50%;
+	left:58%;
+	position: absolute;
+	margin-left: -175px;
+	margin-top: -175px;
+	text-align: center;
+	box-shadow: 0px 0px 8px #ccc;
+	border-radius: 5px;
+}
+/****** modal condicion *************/
+.estilos-ModalCondicion{
+	position: fixed;
+	display: inline-block;
+	width: 40%;
+	height: 300px;
+	padding: 25px;
+	background-color: #FFF;
+	color: #666;
+	font-size: 15px;
+	top: 50%;
+	left:45%;
+	position: absolute;
+	margin-left: -175px;
+	margin-top: -175px;
+	text-align: center;
+	box-shadow: 0px 0px 8px #ccc;
+	border-radius: 5px;
+}
+.estilos-ModalCondicion caption, .estilos-ModalTipoAnulacion caption{
+	background: #023859;
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+}
+.estilos-ModalTipoAnulacion select.id_motivo_anu {
+	height: 38px;
+	/*padding: 5px 15px;  /*para windows*/
+	border-radius: 3px;
+	border:1px solid #C4C4C4;
+}
+.estilos-ModalTipoAnulacion button {
+	padding: 9px 15px;
+	border-radius: 3px;
+	border:1px solid #C4C4C4;
+	color: #fff;
+	background: #023859;
+	margin-top: 4px;
+}
+.estilos-ModalTipoAnulacion button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+.estilos-ModalCondicion table tr td #desarrollo{
+	position: relative;
+	top: 20px;
+	padding: 5px;
+	background: orange;
+	color: #fff;
+	float: center;
+	font-size: 18px;
+	border-radius: 2px;
+}
+.estilos-ModalTipoAnulacion{
+	position: fixed;
+	display: inline-block;
+	width: 40%;
+	height: 200px;
+	padding: 25px;
+	background-color: #FFF;
+	color: #666;
+	font-size: 15px;
+	top: 50%;
+	left:45%;
+	position: absolute;
+	margin-left: -175px;
+	margin-top: -160px;
+	text-align: center;
+	box-shadow: 0px 0px 8px #ccc;
+	border-radius: 5px;
+}
+.estilos-ModalCondicion table, .estilos-ModalTipoAnulacion table{
+	width:90%;
+	height: 30%;
+	clear: both;
+	border-collapse: collapse;
+}
+.estilos-ModalCondicion table tr td, .estilos-ModalTipoAnulacion table tr td{
+	border:1px solid #ccc;
+}
+.btn-quitar-modal{
+	position: relative;
+	float: right;
+	background: red;
+	color: #fff;
+	padding: 8px;
+	border-radius: 4px;
+}
+.btn-quitar-modal:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.msj-confirmar2{
+	position: fixed;
+	display: inline-block;
+	width: 320px;
+	height: 130px;
+	padding: 25px;
+	background-color: #FFF;
+	color: #666;
+	font-size: 15px;
+	top: 50%;
+	left:58%;
+	position: absolute;
+	margin-left: -175px;
+	margin-top: -175px;
+	text-align: center;
+	box-shadow: 0px 0px 8px #ccc;
+	border-radius: 5px;
+}
+span#id-msj{
+	font-size: 16px;
+}
+.msj-confirmar input,.msj-confirmar2 input{
+	margin-top: 20px;
+	text-align: center;
+	padding: 6px 15px;
+	border-radius: 3px;
+	border:1px solid #C4C4C4;
+}
+.msj-confirmar input:hover,.msj-confirmar2 input:hover{
+	opacity: 0.9;
+}
+.msj-confirmar input#si,.msj-confirmar2 input#si{
+	background: #023859;
+	color: #fff;
+}
+.msj-confirmar input#no,.msj-confirmar2 input#no{
+	background: #9F1414;
+	color: #fff;
+}
+.msj-confirmar input:hover,.msj-confirmar2 input:hover{
+	cursor: pointer;
+}

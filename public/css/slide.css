@@ -1,0 +1,38 @@
+.main #galeria{ /*contenedor*/
+    display: block;
+    margin:auto; 
+    padding: 0; position: relative;
+    width: 100%;
+    top:0px;
+    height:40.6em;
+    list-style: none;
+    border-radius: 1px solid #000;
+    overflow: hidden;
+}
+.main #galeria li{
+	position: absolute; 
+	width: 100%;
+}
+.main #galeria li img{
+	width: 100%;
+	border-radius: 1px;
+	position:absolute;
+	height:20.7em;
+	box-shadow: 5px 5px 5px #023859;
+}
+.main #galeria .selected{
+	z-index: 0; opacity: 1;
+	-moz-transition: all 2s ease 0s;
+	-ms-transition: all 2s ease 0s;
+    -o-transition: all 2s ease 0s;
+	-webkit-transition: all 2s ease 0s;
+	transition: all 2s ease 0s;
+}
+.main #galeria .noselected{
+    z-index: 0;opacity: 0;
+    -moz-transition: all 2s ease 0s;
+    -ms-transition: all 2s ease 0s;
+    -o-transition: all 2s ease 0s;
+    -webkit-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;
+}

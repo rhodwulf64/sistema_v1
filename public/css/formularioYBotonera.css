@@ -1,0 +1,298 @@
+/*********************** formulario y botoneras ************************/
+#formulario,#formulario_estilo_individual1{
+	width: 100%;
+	
+	background-color: #FFF;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-shadow: 0px 0px 20px #ccc;
+	border-radius:0px 0px 5px 5px;
+}
+#transaccion{
+	width: 100%;
+	border:1px solid #ccc;
+	background-color: #FFF;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+#botonera2{
+	background: #023859;
+	color: #fff;
+}
+#botonera2:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+#formulario_estilo_individual1 label,#formulario label{
+	font-size: 18px;
+}
+#formulario caption, #acceso caption, #acceso2 caption, #formulario_estilo_individual1 caption,#formulario_estilo_individual1 .caption {
+	padding: 7px 8px;
+	border:1px solid  #ccc;
+	color:#FFF;
+	font-size: 19px;
+	text-align: left;
+	background-color: #023859;
+}
+#formulario_estilo_individual1 caption, #formulario caption, #acceso2 caption, #acceso caption{
+	border-radius:5px 5px 0px 0px;
+}
+#formulario tr td,#formulario_estilo_individual1 tr td{
+	padding-left: 0px;
+	padding-right:0px;
+	padding-top:10px;
+	padding-bottom: 5px;		
+	font-size: 16px;
+	/*border:1px solid #ccc;*/
+}
+#formulario_estilo_individual1 .buscar{
+	background: #023859;
+	color: #fff;
+	width: 10px;
+	height: 25px;
+}
+#formulario_estilo_individual1 .buscar:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+#iconosB{
+ 	margin-left: -8px;
+}
+#ic-ayuda-frm{
+	float: right;
+}
+#ic-ayuda-frm:hover{
+	cursor: pointer;
+}
+#ico-calendario{
+	color: #023859;
+	font-size: 16px;
+}
+#formulario_estilo_individual1 tr td #t-agregar{
+	position: relative;
+	top: 20px;
+	background: #023859;
+	color: #fff;
+}
+#formulario_estilo_individual1 tr td #t-agregar:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+#formulario_estilo_individual1 tr td #r-agregar{
+	position: relative;
+	top: 50%;
+	left:70%; 
+	right: 30%;
+	background: #ccc;
+	color: #666666;
+}
+#formulario_estilo_individual1 tr td #r-agregar:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+span.espacio-frm-unico-campo-derecho{
+	margin-left: 60px;
+}
+span.espacio-frm-unico-campo-Izquierdo{
+	margin-right: 60px;
+}
+#formulario_estilo_individual1 span.espacio{
+	margin-left: 150px;
+}
+#formulario_estilo_individual1 span.espacio2{
+	margin-left: 180px;
+}
+#formulario_estilo_individual1 tr td #r-agregar:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+#formulario_estilo_individual1 tr td #a-agregar{
+	position: relative;
+	float: right;
+	right: 10px;
+	background: #023859;
+	color: #fff;
+}
+#formulario_estilo_individual1 tr td #a-agregar:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+#formulario select{
+	width: 100%;
+}
+#formulario #ced{
+	width: 50%;
+}
+#formulario_estilo_individual1 select.CampoMov,#formulario_estilo_individual1 input[type="text"].CampoMov,#formulario_estilo_individual1 textarea.CampoMov {
+	width: 100%;
+}
+#formulario_estilo_individual1 tr td textarea#textareaCabecera{
+	height: 35px;
+}
+#formulario_estilo_individual1 tr td textarea#textareaBien{
+	height: 50px;
+}
+#formulario_estilo_individual1 tr td#r-paddig{
+	padding: 4px 10px 4px 10px;
+}
+#formulario input[type="text"]:hover,input[type="password"]:hover,select:hover,label, #acceso tr td .usr:hover,#acceso2 tr td .usr,#acceso2 tr td .pas:hover, #formulario_estilo_individual1 tr td:hover{
+	cursor:pointer;
+}
+#formulario input[type="text"],#formulario input[type="password"],#acceso input[type="text"],#acceso input[type="password"],textarea{
+	width: 100%;
+}
+#ventanaModal input[type="text"],#formulario input[type="text"],#formulario input[type="password"],#formulario select,
+#acceso input[type="text"],#acceso input[type="password"],#formulario_estilo_individual1 input[type="text"],#formulario_estilo_individual1 input[type="password"],#acceso2 input[type="text"],
+#formulario_estilo_individual1 textarea{
+	text-transform:uppercase;
+}
+#formulario textarea,#formulario_estilo_individual1 textarea{
+	resize:none;
+}
+#formulario_estilo_individual1 tr td .r-select-personalizado{
+	width: 48%;
+}
+#formulario select, #formulario_estilo_individual1 select{
+	height: 38px;
+	/*padding: 5px 15px;  /*para windows*/
+	border-radius: 3px;
+	border:1px solid #C4C4C4;
+/*	-webkit-padding: 1px 15px;
+	-moz-padding: 1px 15px;
+	-ms-padding: 1px 15px;
+	-o-padding: 1px 15px;*/
+}
+#formulario_estilo_individual1 tr td input.CampoMov,#formulario_estilo_individual1 tr td select.CampoMov,#formulario_estilo_individual1 tr td option.CampoMov,
+#formulario_estilo_individual1 tr td button,#formulario_estilo_individual1 tr td textarea.CampoMov,
+#formulario tr td input, #formulario tr td select option, #formulario tr td textarea, #acceso tr td .pas, #acceso tr td .usr
+,#formulario tr td button,#acceso tr td input[type="button"],#acceso tr td input[type="reset"],#acceso tr td input[type="submit"],
+#acceso2 tr td .pas, #acceso2 tr td .usr,#acceso2 tr td input[type="button"],#acceso2 tr td input[type="reset"],#acceso2 tr td input[type="submit"]{
+	padding: 9px 15px;
+	border-radius: 3px;
+	border:1px solid #C4C4C4;
+	margin-top: 4px;
+}
+#formulario input[type="text"]:focus,#acceso input[type="text"]:focus,#acceso2 input[type="text"]:focus,
+#acceso input[type="password"]:focus,#formulario input[type="password"]:focus,#formulario select:focus,#formulario textarea:focus,
+#formulario_estilo_individual1 input[type="password"]:focus,#formulario_estilo_individual1 input[type="text"]:focus,
+#formulario_estilo_individual1 select:focus, #formulario_estilo_individual1 textarea:focus{
+	box-shadow: 0em 0em 0.2em #848484;
+}
+#formulario button:focus,#formulario_estilo_individual1 button:focus, #acceso button:focus {
+	outline: none;
+}
+#formulario input[type="file"]:hover{
+	cursor: pointer;
+}
+#formulario option{
+	padding: 9px 15px;
+	border-radius: 0px;
+	border:1px solid #C4C4C4;
+}
+:focus{
+	outline: none;
+}
+/******************* botonera ***********************/
+#botonera{
+	margin-bottom: 20px;
+	text-align: center;
+}
+#botonera input[type="button"],#botonera input[type="reset"],#botonera input[type="submit"],#botonera button{
+	background: #ccc; font-weight: 700;
+}
+#botonera input[type="button"]:hover, #botonera input[type="reset"]:hover, #botonera input[type="submit"]:hover,#botonera button:hover{
+	cursor: pointer;
+	opacity: 0.92;
+}
+#acceso #botonera .bt-principal, #acceso2 #botonera .bt-principal{
+	background-color: #023859;
+	color: #fff;
+}
+/******************* formulario de acceso ******************/
+#acceso,#acceso2{
+	display: block;
+	width: 80%;
+	/*border:1px solid #ccc;*/
+	box-shadow: 0px 0px 20px #ccc;
+	margin:5% auto;
+	color: #070D2E;
+	clear: both;
+	border-radius:0px 0px 5px 5px;
+}
+#no-access-table{
+	background: red:;
+}
+#form_acceso,#form_acceso2{
+	padding: 5px;
+}
+#acceso tr td input[type="text"],#acceso tr td input[type="password"],#acceso2 tr td{
+	width: 86%;
+}#acceso2 tr td{
+	padding-left: 50px;
+	font-size: 16px;
+}
+#acceso tr td{
+	width: 100%;
+	position: relative;
+	padding-left: 70px;
+	padding-right: 20px;
+	font-size: 16px; 
+}
+#acceso table{
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+	border-radius:5px 5px 0px 0px;
+}
+#acceso tr td a#recuperar-clave{
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+	bottom: 5px;
+}
+#acceso label,#acceso2 label{
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 20px;
+}
+#acceso caption,#acceso2 caption{
+	width: 100%;
+	display: inline-block;
+}
+#acceso input[type="text"],#acceso input[type="password"],#acceso2 input[type="text"]{
+	display: inline-block;
+	width: 89%;
+	margin-bottom: 10px;
+}
+
+/************************** iconos de acceso **************************/
+/*#acceso .icon-lock, #acceso .icon-user,
+#acceso2 .icon-user{
+	background-color: #404040;
+	color: #fff;
+	padding: 4px 2px 8px 6px;
+	border-radius: 3px 0px 0px 2px;
+	margin: auto;
+	width: 12px;
+}*/
+
+/******************* mesaje de verificacion de datos ****************/
+/*.verificar-datos{
+	display: block;
+	text-align: center;
+}
+#verificar-datos{
+	color: red;
+	padding: 5px 0px 5px 0px;
+	font-size: 14px;
+	display: inline-block;
+}
+#verificar-datos-table{
+	width: 100%;
+	top: -40px;
+	position: relative;
+}*/
