@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 19-03-2016 a las 21:07:14
+-- Tiempo de generación: 02-04-2016 a las 16:22:20
 -- Versión del servidor: 5.1.41
 -- Versión de PHP: 5.3.1
 
@@ -766,14 +766,17 @@ CREATE TABLE IF NOT EXISTS `sesionuser` (
   `navegador` varchar(30) COLLATE utf8_spanish_ci NOT NULL,
   PRIMARY KEY (`id_sesionUser`),
   KEY `sesionUser_usuario_idx` (`id_usuario`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=132 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=135 ;
 
 --
 -- Volcar la base de datos para la tabla `sesionuser`
 --
 
 INSERT INTO `sesionuser` (`id_sesionUser`, `id_usuario`, `dir_ip`, `dir_mac`, `fecha_inicio`, `hora_inicio`, `fecha_fin`, `hora_fin`, `nom_pc`, `nom_remoto`, `so`, `navegador`) VALUES
-(131, 1, '::1', 'e8-de-27-37-70-58', '2016-03-19', '16:25:47', '0000-00-00', '00:00:00', 'Rhod-PC', 'Rhod-PC', 'windows', 'Google Chrome');
+(131, 1, '::1', 'e8-de-27-37-70-58', '2016-03-19', '16:25:47', '2016-03-19', '16:55:56', 'Rhod-PC', 'Rhod-PC', 'windows', 'Google Chrome'),
+(132, 1, '::1', 'e8-de-27-37-70-58', '2016-03-19', '17:01:50', '0000-00-00', '00:00:00', 'Rhod-PC', 'Rhod-PC', 'windows', 'Google Chrome'),
+(133, 5, '::1', 'e8-de-27-37-70-58', '2016-04-02', '16:13:10', '2016-04-02', '16:13:27', 'Rhod-PC', 'Rhod-PC', 'windows', 'Google Chrome'),
+(134, 1, '::1', 'e8-de-27-37-70-58', '2016-04-02', '16:14:08', '0000-00-00', '00:00:00', 'Rhod-PC', 'Rhod-PC', 'windows', 'Google Chrome');
 
 -- --------------------------------------------------------
 
@@ -927,11 +930,11 @@ CREATE TABLE IF NOT EXISTS `usuario` (
 --
 
 INSERT INTO `usuario` (`id_usuario`, `login`, `pass`, `pass_anterior`, `intentos`, `intentos_preg1`, `intentos_preg2`, `fecha_creacion`, `hora_logeo`, `fecha_logeo`, `id_perfil`, `id_per`, `sesion_iniciada`, `status_user`) VALUES
-(1, '23052336', '23052336', '$2y$10$9u.GqHmrTjD0J4F8EAV.yuPK4weTSTEtJ1K8cjSRB7iH0pVIVL8NK', 0, 0, 0, '2015-10-10', '16:25:48', '2016-03-19', 1, 2, '1', '1'),
+(1, '23052336', '23052336', '$2y$10$9u.GqHmrTjD0J4F8EAV.yuPK4weTSTEtJ1K8cjSRB7iH0pVIVL8NK', 0, 0, 0, '2015-10-10', '16:14:09', '2016-04-02', 1, 2, '1', '1'),
 (2, '17650483', '$2y$10$AZrxtkqMiZsCnim2GWQvOO58FIG3So3U1j1uC6WR5ks3oFDMRUZ9u', '$2y$10$AZrxtkqMiZsCnim2GWQvOO58FIG3So3U1j1uC6WR5ks3oFDMRUZ9u', 0, 0, 0, '0000-00-00', '05:16:41', '2015-05-22', 2, 3, '0', '1'),
 (3, '24019450', '$2y$10$uE2I3tiZaouqKB4UbPodz.Ttx.r412v69AUVM28QlUBUwcAew3dxO', '$2y$10$uE2I3tiZaouqKB4UbPodz.Ttx.r412v69AUVM28QlUBUwcAew3dxO', 0, 0, 0, '0000-00-00', '05:18:56', '2015-05-22', 3, 4, '0', '1'),
 (4, '5949569', '$2y$10$qLSAOrJB3beHKEb1mMnIsuQZJML/RLv7W27yNL.1rj4KilzTi7uOm', '$2y$10$qLSAOrJB3beHKEb1mMnIsuQZJML/RLv7W27yNL.1rj4KilzTi7uOm', 0, 0, 0, '0000-00-00', '01:56:07', '2015-05-17', 3, 5, '0', '1'),
-(5, '12566019', '$2y$10$Iuk/BxydNJnV4xPkEpCoP.GkW2FUNYBqsZILatWeHN.Tjekh9Mylu', '$2y$10$Iuk/BxydNJnV4xPkEpCoP.GkW2FUNYBqsZILatWeHN.Tjekh9Mylu', 0, 0, 0, '0000-00-00', '14:15:43', '2015-05-13', 3, 1, '0', '1'),
+(5, '12566019', '$2y$10$Iuk/BxydNJnV4xPkEpCoP.GkW2FUNYBqsZILatWeHN.Tjekh9Mylu', '$2y$10$Iuk/BxydNJnV4xPkEpCoP.GkW2FUNYBqsZILatWeHN.Tjekh9Mylu', 0, 0, 0, '0000-00-00', '16:13:10', '2016-04-02', 3, 1, '0', '1'),
 (6, 'andres', '$2y$10$dLf1QQJ38NNIXH8LKNHdZu/hbDobjq5Iploqk7jmUJEYLltbtqVwK', '$2y$10$dLf1QQJ38NNIXH8LKNHdZu/hbDobjq5Iploqk7jmUJEYLltbtqVwK', 0, 0, 0, '0000-00-00', '02:54:35', '2015-05-17', 3, 6, '0', '1'),
 (7, '1234567', '$2y$10$arjVvW5fkYUbLAfWqDtoeunxdv4Rbt2fGbJjXiFJ38IwlGdzVNrFy', '$2y$10$arjVvW5fkYUbLAfWqDtoeunxdv4Rbt2fGbJjXiFJ38IwlGdzVNrFy', 0, 0, 0, '0000-00-00', '12:56:33', '2015-05-17', 3, 7, '0', '1'),
 (8, '12345678', '$2y$10$uj9WSzIvbXYR6vDWv/bkY.1q6yCUtBHnk5v9.IP9bezIPu3dq0hR.', '$2y$10$uj9WSzIvbXYR6vDWv/bkY.1q6yCUtBHnk5v9.IP9bezIPu3dq0hR.', 0, 0, 0, '0000-00-00', '21:24:00', '2015-05-17', 3, 8, '0', '1'),
